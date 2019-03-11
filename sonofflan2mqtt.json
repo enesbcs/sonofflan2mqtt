@@ -1,0 +1,17 @@
+{
+"periodic_check_interval": 0,
+"mqtt_type": "domoticz",
+"mqtt_address": "192.168.1.1",
+"mqtt_port": 1883,
+"mqtt_user": "",
+"mqtt_password": "",
+"mqtt_topic_pub":"",
+"mqtt_topic_sub":"",
+"device_idx_list": [
+  {"sonoff_device_id": "10003b1000", "idx": {"outlet0": 0, "outlet1": 0, "outlet2": 0, "outlet3": 0}},
+  {"sonoff_device_id": "10003b1001", "idx": {"outlet0": 0, "outlet1": 0, "outlet2": 0, "outlet3": 0}},
+  {"sonoff_device_id": "10003b1002", "idx": {"outlet0": 0, "outlet1": 0, "outlet2": 0, "outlet3": 0}},
+  {"sonoff_device_id": "10003b1003", "idx": {"outlet0": 0, "outlet1": 0, "outlet2": 0, "outlet3": 0}},
+  {"sonoff_device_id": "10003b1004", "idx": {"outlet0": 0, "outlet1": 0, "outlet2": 0, "outlet3": 0}}
+ ]
+}
