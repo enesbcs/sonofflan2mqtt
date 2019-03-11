@@ -35,4 +35,4 @@ The "device_idx_list" has to be filled manually. At the first run you will se se
 For example: on a Sonoff S20 ID 10003b90001 "outlet0" is the first and only relay, so if you created a device IDX 45 in Domoticz, you have to write "outlet0":45, at the right line filling with the right sonoff device id. 
 Then restart the sonofflan2mqtt application and now you are able to control this socket changing the state of the IDX 45 device.
 
-It it works you have to make the sonofflan2mqtt.py script to auto start with the system.
+If it works you have to make the sonofflan2mqtt.py script to auto start at system boot time.
