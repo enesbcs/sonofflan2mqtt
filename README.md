@@ -3,7 +3,7 @@
 Sonoff LAN mode devices to MQTT bridge. 
 
 It's a proof of concept project, discovering all Sonoff devices in the same LAN, that entered to LAN mode, and collecting and forwarding commands sent to it/arriving from them to an MQTT broker for further processing. Primarily targeted to Domoticz MQTT.
-Based on [my Wireshark adventures](https://bitekmindenhol.blog.hu/2018/08/31/sonoff_lan_uzemmod) and [Andrew Beveridge's pysonofflan program ](https://github.com/beveradb/pysonofflan) which is very nice, but as i see it has a blocking nature. This bridge can handle multiple Sonoff devices at the same time with websockets and multithreading. (multithreading in Domoticz python plugin systen is not supported as i know, this is the reason why i am unable to make a simple python plugin from it)
+Based on [my Wireshark adventures](https://bitekmindenhol.blog.hu/2018/08/31/sonoff_lan_uzemmod) and [Andrew Beveridge's pysonofflan program ](https://github.com/beveradb/pysonofflan) which is very nice, but as i see it has a blocking nature. This bridge can handle multiple Sonoff devices at the same time with websockets and multithreading. (multithreading in Domoticz python plugin system is not supported as i know, this is the reason why i am unable to make a simple python plugin from it)
 
 **This will only work for Sonoff devices running a recent version of the stock (Itead / eWeLink) firmware, which have been blocked from accessing the internet (to put them in LAN Mode).**
 
