@@ -1,3 +1,5 @@
+This is only a proof-of-concept plugin, do not except much support for it!
+
 # SonoffLAN2MQTT
 
 Sonoff LAN mode devices to MQTT bridge. 
